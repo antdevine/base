@@ -1,0 +1,15 @@
+body{
+    overflow-x: hidden;
+}
+
+.keyPoints .keyPoints__content {
+    width: 27.33%;
+}
+
+footer {
+    clear: both;
+}
+
+.animation .animation__video--container img {
+    display: block;
+}

@@ -1,0 +1,141 @@
+section {
+    @include clearfix;
+}
+
+section.topBanner {
+    & h1 {
+        max-width: 500px;
+    }
+    & p {
+        & span{
+            font-weight: 500;
+        }
+    }
+}
+
+section.timeline {
+
+    & .timeline__intro {
+        text-align: center;
+
+        & h2 {
+            margin-bottom: 0;
+            margin-top: 3%;
+        }
+    }
+
+    & .timeline__contianer--img {
+        max-width: 580px;
+    }    
+
+    .timeline__txtcontainer {
+        padding: 6%;
+
+        & h2 {
+            color: #ffffff;
+        }
+
+        & .timeline__txtcontainer--para {
+            position: relative;
+            & p {
+                color: #ffffff;
+    
+                &:after {
+                    content: '';
+                    position: absolute;
+                    left: -1%;
+                    top: 0;
+                    width: 1px;
+                    height: 200px;
+                    background-color: #ffffff;
+                }
+            }
+        }
+        
+    }
+}
+
+section.readyapply {
+    background-color: #5D5D5D;
+    text-align: center;
+    padding: 2%;
+}
+
+
+section.rewards {
+    position: relative;
+
+    .rewardsmaincontainer {
+        margin-top: -2%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        & .rewards__textcontainer {
+            text-align: center;
+            max-width: 580px;
+            margin: 0 auto;
+            color: #ffffff;            
+        
+            & h2 {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+    
+        & .rewards__container {
+            max-width: 1300px;
+            margin: 0 auto;
+    
+            & .rewards__container--txt {
+                text-align: center;
+                color: #ffffff;
+    
+                & h3 {
+                    font-size: 18px;
+                    margin-bottom: 0;
+                }
+    
+                & p {
+                    margin-top: 0;
+                }
+            }
+    
+            & .rewards__container--item {
+                & .rewards__container--img {
+                    max-width: 226px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    
+}
+
+
+section.responsibly {
+    & .responsibly__containertxt {
+        max-width: 380px;
+        margin: 5% 0 5% 5%;
+        width: 100%;
+
+        & h2 {
+            font-size: 90px;
+        }
+    }
+}
+
+
+section.takethemarket {
+    
+    & .takethemarket__txt {
+        margin: 0 0 0 10%;
+        max-width: 600px;
+
+        & h2 {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    }
+}

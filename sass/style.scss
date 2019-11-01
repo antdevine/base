@@ -1,0 +1,31 @@
+// Import external libraries.
+@import "susy";
+@import "../bower_components/breakpoint-sass/stylesheets/breakpoint.scss";
+
+// Import sass partials
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/bootstrapnav';
+@import 'base/basicstyles';
+@import 'framework/grid';
+@import 'modules/slider/slippry';
+@import 'modules/lightbox/lity';
+@import 'modules/lightbox/prism';
+@import 'base/typography';
+@import 'framework/header';
+@import 'framework/footer';
+@import 'framework/body';
+@import 'base/responsive';
+
+// 4 symmetrical, fluid columns
+// gutters are 1/4 the size of a column
+// elements span 1 less gutter than columns
+// containers span 1 less gutter as well
+$susy: (
+  columns: 12,
+  container: 1000px,
+  global-box-sizing: border-box  
+);
+
+ 

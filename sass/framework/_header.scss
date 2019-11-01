@@ -1,0 +1,22 @@
+header {
+    @include clearfix;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+
+    & .main-navigation {
+        
+        & ul {
+            display: inline-block;
+        }
+
+    }
+
+
+    & .logo {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+
+}

@@ -1,0 +1,13 @@
+@mixin clearfix {
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  @mixin maxWidth {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
